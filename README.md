@@ -39,8 +39,11 @@ Este projeto utiliza a plataforma Arduino para monitorar a intensidade luminosa 
 
 O trecho de código abaixo exemplifica o núcleo da lógica do projeto: O sinal analógico lido no sensor (INPUT).
 
+```cpp
+
 int LDR = A0;  // Entrada do sensor LDR (INPUT)
 
 void setup() {
   pinMode(LDR, INPUT);   // Define pino A0 como Entrada
 }
+```
